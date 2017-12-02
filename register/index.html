@@ -1,0 +1,480 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta name="verify-v1" content="3fA+wJueFG9IG5iKeTxi0Kltt6yt9rqGeqr5DSBZNDY="/>
+        <title>Player Registration</title>
+        <link rel="shortcut icon" href="../images/favicon.ico.html" type="image/x-icon" />
+
+        <script type="text/javascript" src="../js/jquery/jquery-1.4.4.min.js"></script>
+
+
+        <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet" id="jquery-ui-theme" /><script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js" type="text/javascript" ></script>
+
+        
+          <script type="text/javascript" src="../js/jquery/jquery.scrollTo-min.js"></script>
+        
+
+        <link rel="stylesheet" href="../css/default.css" />
+
+        
+	<meta name="layout" content="main"/>
+	
+    <link rel='stylesheet' type='text/css' href='../plugins/richui-0.8/css/datechooser.css' />
+<link rel='stylesheet' type='text/css' href='../plugins/richui-0.8/js/yui/calendar/assets/calendar.css' />
+<link rel='stylesheet' type='text/css' href='../plugins/richui-0.8/js/yui/calendar/assets/skins/sam/calendar.css' />
+<script type='text/javascript' src='../plugins/richui-0.8/js/yui/yahoo-dom-event/yahoo-dom-event.js'></script>
+<script type='text/javascript' src='../plugins/richui-0.8/js/datechooser/datechooser.js'></script>
+<script type='text/javascript' src='../plugins/richui-0.8/js/yui/calendar/calendar-min.js'></script>
+
+    </head>
+<body>
+<!-- start header -->
+<div id="header">
+	<div id="logo">
+		<h1><a href="../index.html"><span>Portland</span>Ultimate</a></h1>
+		<p>The way life should be</p>
+	</div>
+	<div id="menu">
+		<ul id="main">
+			<li class="current_page_item"><a href="../index.html">Homepage</a></li>
+			<li><a href="http://thehauntedmansion.org/phpBB2/" target="_blank">Bulletin Board</a></li>
+			<li><a href="../about/index.html">About Us</a></li>
+			<li><a href="../comment/index.html">Contact Us</a></li>
+                                    <!--<li class="wrong_coast"><a href="http://portlandultimate.org/" target="_blank">Portland, Oregon?</a></li>-->
+
+		</ul>
+	</div>
+
+</div>
+<!-- end header -->
+<div id="wrapper">
+	<!-- start page -->
+	<div id="page">
+		<div id="sidebar1" class="sidebar">
+			<ul>
+		      
+		      
+				<li>
+					<h2>Leagues</h2>
+					<ul>
+						
+						
+					</ul>
+				</li>
+				<li>
+					<h2>Tournaments</h2>
+					<ul>
+						
+						
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- start content -->
+		<div id="content">
+	        <div id="spinner" class="spinner" style="display:none;">
+	            <img src="../images/spinner.gif" alt="Spinner" />
+	        </div>
+            
+
+	<div class="body">
+		<h1>Player Registration</h1>
+		
+		
+
+		<form action="http://www.portlandultimate.com/register/save" method="post" >
+		<div class="dialog">
+		<table>
+		<tbody>
+
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="username">Login Name:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" maxlength="30" id="username" name="username" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="password">Password:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="password" maxlength="50" id="password" name="password" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="repassword">Confirm Password:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="password" name="repassword" id="repassword" value="[secret]" />
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="passwordHint">Password Hint:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" size="40" maxlength="50" id="passwordHint" name="passwordHint" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="firstName">First Name:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" maxlength="50" id="firstName" name="firstName" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="lastName">Last Name:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" maxlength="50" id="lastName" name="lastName" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    
+                    <label for="nickName">Nick Name:</label>
+                    
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" maxlength="50" id="nickName" name="nickName" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="gender">Gender:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                	<select name="gender" id="gender" >
+<option value="">-Choose gender-</option>
+<option value="F" >Female</option>
+<option value="M" >Male</option>
+</select>
+                </td>
+            </tr> 
+
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="dob">Dob:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input class='' style='' type='text' name='i6ed735960f9e8a6a2af0beeb7e4ca966' id='i6ed735960f9e8a6a2af0beeb7e4ca966' value='' />
+<div id='c79c4d2ece3b4e445ec0222420b6c771e' class='datechooser yui-skin-sam'></div>
+<script type='text/javascript'>	var dateChooser = new DateChooser();
+	dateChooser.setDisplayContainer("c79c4d2ece3b4e445ec0222420b6c771e");
+	dateChooser.setInputId("i6ed735960f9e8a6a2af0beeb7e4ca966");
+	dateChooser.setStructId("dob");
+	dateChooser.setFormat("MM/dd/yyyy");
+	dateChooser.setLocale("en");
+	dateChooser.init();
+</script>
+<input type='hidden' name='dob' id='dob' value='date.struct' />
+<input type='hidden' name='dob_day' id='dob_day' value='' />
+<input type='hidden' name='dob_month' id='dob_month' value='' />
+<input type='hidden' name='dob_year' id='dob_year' value='' />
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="shirtSize">Shirt Size:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                	<select name="shirtSize" id="shirtSize" >
+<option value="">-Choose shirt size-</option>
+<option value="S" >Small</option>
+<option value="M" >Medium</option>
+<option value="L" >Large</option>
+<option value="XL" >X-Large</option>
+</select>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="email">Email:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" size="40" maxlength="250" id="email" name="email" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="homePhoneNumber">Home Phone Number:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" size="15" maxlength="20" id="homePhoneNumber" name="homePhoneNumber" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    
+                    <label for="workPhoneNumber">Work Phone Number:</label>
+                    
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" size="15" maxlength="20" id="workPhoneNumber" name="workPhoneNumber" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="address">Address:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" size="40" maxlength="100" id="address" name="address" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="city">City:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" size="40" maxlength="50" id="city" name="city" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="state">State:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" maxlength="2" size="2" id="state" name="state" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="zip">Zip:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <input type="text" size="10" maxlength="10" id="zip" name="zip" value=""/>
+                </td>
+            </tr> 
+                
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="findoutAbout">How did you findout<br/>about us?:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                	<select name="findoutAbout" id="findoutAbout" >
+<option value="">-How you found about us-</option>
+<option value="Friend" >Friend</option>
+<option value="Website" >Website</option>
+<option value="Flyer" >Flyer</option>
+<option value="Newspaper" >Newspaper</option>
+<option value="Twitter" >Twitter</option>
+<option value="Facebook" >Facebook</option>
+</select>
+                </td>
+            </tr> 
+
+            <tr class="prop">
+                <td valign="top" class="name">
+                    &nbsp;
+                </td>
+                <td valign="top">
+                    &nbsp;
+                </td>
+            </tr> 
+                
+            <tr class="prop">
+                <td valign="top" class="name">
+                    
+                    <label for="upaId">USA Ultimate Id:</label>
+                    
+                </td>
+                <td valign="top" class="value ">
+                 	If you have forgotten your USA Ultimate ID, <br/>you can login to the <a href="https://members.usaultimate.org/members/login.php" target="_blank">USA Ultimate website</a> to figure it out. <br/>
+                    <input type="text" maxlength="15" id="upaId" name="upaId" value=""/>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="experienceLevel">Experience Level:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <select name="experienceLevel" id="experienceLevel" >
+<option value="" selected="selected">-Please choose your current experience level-</option>
+<option value="1" >Never played organized ultimate.</option>
+<option value="2" >Know the basic rules and played some but not more than a year.</option>
+<option value="3" >Played for a year or two but still learning.</option>
+<option value="4" >Has both throws and played in a couple tourneys.</option>
+<option value="5" >High level skills and experience.</option>
+</select>
+                </td>
+            </tr> 
+        
+            <tr class="prop">
+                <td valign="top" class="name">
+                    <span class="required">*
+                    <label for="experienceDesc">Experience Desc:</label>
+                    </span>
+                </td>
+                <td valign="top" class="value ">
+                    <textarea rows="3" cols="40" name="experienceDesc"></textarea>
+                </td>
+            </tr> 
+        
+			<tr class='prop'>
+				<td valign='top' class='name'>
+					<span class="required">*
+					<label for='code'>Enter Code: </label>
+					</span>
+				</td>
+				<td valign='top' class="value ">
+					<input type="text" name="captcha" size="8"/>
+					<img src="../captcha/index" align="absmiddle"/>
+				</td>
+			</tr>
+        
+		</tbody>
+		</table>
+		</div>
+
+		<div class="buttons">
+			<span class="formButton">
+				<input class='save' type="submit" value="Create"></input>
+			</span>
+		</div>
+
+		</form>
+	</div>
+
+
+		</div>
+		<!-- end content -->
+		<!-- start sidebars -->
+		<div id="login-status">
+			
+				<a href="../login/index.html">Login</a>
+			
+			
+		</div>
+		<div id="sidebar2" class="sidebar">
+			<ul>
+				<li>
+					<ul>
+						<li><a href="../calendar/index.html">Calendar of Events</a></li>
+					</ul>
+				</li>
+
+				<li>
+					<h2>Local Club Teams</h2>
+					<ul>
+						
+							<li><a href="../clubTeam/show/3.html">Dead Reckoning</a></li>
+						
+							<li><a href="../clubTeam/show/1.html">Red Tide</a></li>
+						
+							<li><a href="../clubTeam/show/2.html">S.S. Arg</a></li>
+						
+							<li><a href="../clubTeam/show/7.html">Swagger</a></li>
+						
+					</ul>
+				</li>
+                <li>
+                    <h2>Youth Ultimate</h2>
+                    <ul>
+                        
+                        
+                            <li>
+                                
+                                    <a href="http://www.maineultimate.org/">Maine High School Ultimate</a>
+                                
+                            </li>
+                        
+                    </ul>
+                </li>
+			</ul>
+		</div>
+		<!-- end sidebars -->
+		<div style="clear: both;">&nbsp;</div>
+			<table border=0 align="center" style="padding: 20px 5px 5px 5px;" cellspacing=0>
+			  <tr><td>
+			    <img src="http://groups.google.com/groups/img/3/groups_bar.gif"
+			         height=26 width=132 alt="Google Groups">
+			  </td></tr>
+			  <tr><td style="padding-left: 5px">
+			    <b>Join the Portland Ultimate Announcements list,
+			    <br/>this is for general updates about what is going on
+			    <br/>in the area: leagues, tourneys, etc...</b>
+			  </td></tr>
+			  <form action="http://groups.google.com/group/portlandultimate/boxsubscribe">
+			  <input type=hidden name="hl" value="en">
+			  <tr><td style="padding-left: 5px;">
+			    Email: <input type=text name=email>
+			           <input type=submit name="sub" value="Subscribe">
+			  </td></tr>
+			</form>
+			<tr><td align=right>
+			  <a href="http://groups.google.com/group/portlandultimate?hl=en" target="_blank">Visit this group</a>
+			</td></tr>
+			</table>
+	</div>
+	<!-- end page -->
+</div>
+<div id="footer">
+	<p class="copyright">&copy;&nbsp;&nbsp;2011 All Rights Reserved &nbsp;&bull;&nbsp; Version 2.0.23 &nbsp;&bull;&nbsp; Powered by FitzgeraldWeb Technologies</p>
+</div>
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-9832887-2");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
